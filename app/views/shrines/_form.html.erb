@@ -1,0 +1,53 @@
+<%= form_for(@shrine) do |f| %>
+  <% if @shrine.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@shrine.errors.count, "error") %> prohibited this shrine from being saved:</h2>
+
+      <ul>
+      <% @shrine.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :name_hiragana %><br>
+    <%= f.text_field :name_hiragana %>
+  </div>
+  <div class="field">
+    <%= f.label :name_katakana %><br>
+    <%= f.text_field :name_katakana %>
+  </div>
+  <div class="field">
+    <%= f.label :detail %><br>
+    <%= f.text_area :detail %>
+  </div>
+  <div class="field">
+    <%= f.label :longitude %><br>
+    <%= f.text_field :longitude %>
+  </div>
+  <div class="field">
+    <%= f.label :latitude %><br>
+    <%= f.text_field :latitude %>
+  </div>
+  <div class="field">
+    <%= f.label :address %><br>
+    <%= f.text_field :address %>
+  </div>
+  <div class="field">
+    <%= f.label :hp %><br>
+    <%= f.text_field :hp %>
+  </div>
+  <div class="field">
+    <%= f.label :tags %><br>
+    <%= f.text_area :tags %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

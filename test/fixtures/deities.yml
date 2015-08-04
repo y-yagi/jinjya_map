@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  name_hiragana: MyString
+  name_katakana: MyString
+  detail: MyText
+  tags: MyText
+
+two:
+  name: MyString
+  name_hiragana: MyString
+  name_katakana: MyString
+  detail: MyText
+  tags: MyText

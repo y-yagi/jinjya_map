@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @deity.name %>
+</p>
+
+<p>
+  <strong>Name hiragana:</strong>
+  <%= @deity.name_hiragana %>
+</p>
+
+<p>
+  <strong>Name katakana:</strong>
+  <%= @deity.name_katakana %>
+</p>
+
+<p>
+  <strong>Detail:</strong>
+  <%= @deity.detail %>
+</p>
+
+<p>
+  <strong>Tags:</strong>
+  <%= @deity.tags %>
+</p>
+
+<%= link_to 'Edit', edit_deity_path(@deity) %> |
+<%= link_to 'Back', deities_path %>

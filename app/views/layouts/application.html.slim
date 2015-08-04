@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    meta[charset="utf-8"]
+    meta[http-equiv="X-UA-Compatible" content="IE=edge"]
+    meta[name="viewport" content="width=device-width, initial-scale=1"]
+    title
+      | 神社マップ
+    = stylesheet_link_tag    'application', media: 'all'
+    link[rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"]
+    = javascript_include_tag 'application'
+  body
+    .mdl-layout.mdl-js-layout.mdl-layout--fixed-header
+      = render 'head'
+      main.mdl-layout__content
+        .page-content
+          = yield

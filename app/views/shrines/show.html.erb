@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @shrine.name %>
+</p>
+
+<p>
+  <strong>Name hiragana:</strong>
+  <%= @shrine.name_hiragana %>
+</p>
+
+<p>
+  <strong>Name katakana:</strong>
+  <%= @shrine.name_katakana %>
+</p>
+
+<p>
+  <strong>Detail:</strong>
+  <%= @shrine.detail %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @shrine.longitude %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @shrine.latitude %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @shrine.address %>
+</p>
+
+<p>
+  <strong>Hp:</strong>
+  <%= @shrine.hp %>
+</p>
+
+<p>
+  <strong>Tags:</strong>
+  <%= @shrine.tags %>
+</p>
+
+<%= link_to 'Edit', edit_shrine_path(@shrine) %> |
+<%= link_to 'Back', shrines_path %>

@@ -1,0 +1,37 @@
+<%= form_for(@deity) do |f| %>
+  <% if @deity.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@deity.errors.count, "error") %> prohibited this deity from being saved:</h2>
+
+      <ul>
+      <% @deity.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :name_hiragana %><br>
+    <%= f.text_field :name_hiragana %>
+  </div>
+  <div class="field">
+    <%= f.label :name_katakana %><br>
+    <%= f.text_field :name_katakana %>
+  </div>
+  <div class="field">
+    <%= f.label :detail %><br>
+    <%= f.text_area :detail %>
+  </div>
+  <div class="field">
+    <%= f.label :tags %><br>
+    <%= f.text_area :tags %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

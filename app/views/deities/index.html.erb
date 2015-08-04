@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Deities</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Name hiragana</th>
+      <th>Name katakana</th>
+      <th>Detail</th>
+      <th>Tags</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @deities.each do |deity| %>
+      <tr>
+        <td><%= deity.name %></td>
+        <td><%= deity.name_hiragana %></td>
+        <td><%= deity.name_katakana %></td>
+        <td><%= deity.detail %></td>
+        <td><%= deity.tags %></td>
+        <td><%= link_to 'Show', deity %></td>
+        <td><%= link_to 'Edit', edit_deity_path(deity) %></td>
+        <td><%= link_to 'Destroy', deity, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Deity', new_deity_path %>
