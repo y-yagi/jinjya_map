@@ -16,3 +16,8 @@
 .shrine-card-wide.mdl-card {
   min-width: 600px;
 }
+
+#map-canvas {
+  height: 700px;
+  width: 1000px;
+}
