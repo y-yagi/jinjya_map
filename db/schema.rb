@@ -28,12 +28,9 @@ ActiveRecord::Schema.define(version: 20150804223422) do
   end
 
   create_table "deities_shrines", id: false, force: :cascade do |t|
-    t.integer "deity_id",  null: false
-    t.integer "shrine_id", null: false
+    t.uuid "deity_id",  null: false
+    t.uuid "shrine_id", null: false
   end
-
-  add_index "deities_shrines", ["deity_id", "shrine_id"], name: "index_deities_shrines_on_deity_id_and_shrine_id", using: :btree
-  add_index "deities_shrines", ["shrine_id", "deity_id"], name: "index_deities_shrines_on_shrine_id_and_deity_id", using: :btree
 
   create_table "shrines", id: :uuid, default: "gen_random_uuid()", force: :cascade do |t|
     t.string   "name"
