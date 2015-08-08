@@ -10,7 +10,7 @@ class CreateShrines < ActiveRecord::Migration
       t.float :latitude
       t.string :address
       t.string :hp
-      t.text :tags
+      t.text :tags, array: true
 
       t.timestamps null: false
     end

@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20150804223422) do
     t.string   "name_hiragana"
     t.string   "name_katakana"
     t.text     "detail"
-    t.text     "tags"
+    t.text     "tags",                       array: true
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end
@@ -44,7 +44,7 @@ ActiveRecord::Schema.define(version: 20150804223422) do
     t.float    "latitude"
     t.string   "address"
     t.string   "hp"
-    t.text     "tags"
+    t.text     "tags",                       array: true
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end

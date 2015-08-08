@@ -5,7 +5,7 @@ class CreateDeities < ActiveRecord::Migration
       t.string :name_hiragana
       t.string :name_katakana
       t.text :detail
-      t.text :tags
+      t.text :tags, array: true
 
       t.timestamps null: false
     end
