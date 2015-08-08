@@ -1,7 +1,21 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+unless Deity.exists?
+  Deity.create!(
+    name: '大麻比古神',
+    name_hiragana: 'おおあさひこかみ'
+  )
+
+  Deity.create!(
+    name: '猿田彦神',
+    name_hiragana: 'さるたひこのかみ'
+  )
+end
+
+unless Shrine.exists?
+  Shrine.create!(
+    name: '大麻比古神社',
+    name_hiragana: 'おおあさひこじんじゃ',
+    address: '徳島県鳴門市大麻町板東字広塚１３',
+    hp: 'http://www.ooasahikojinja.jp/',
+    deities: [Deity.find_by(name: '大麻比古神'), Deity.find_by(name: '猿田彦神')]
+  )
+end
