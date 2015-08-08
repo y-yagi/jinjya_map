@@ -13,11 +13,3 @@
  *= require_tree .
  *= require_self
  */
-.shrine-card-wide.mdl-card {
-  min-width: 550px;
-}
-
-#map-canvas {
-  height: 700px;
-  width: 800px;
-}
