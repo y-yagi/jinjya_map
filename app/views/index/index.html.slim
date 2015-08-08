@@ -6,11 +6,8 @@ form.mdl-typography--text-center
 
 .mdl-grid
   .mdl-cell.mdl-cell--4
-    = render 'shrine_card'
+    = render 'shrine_card', shrine: Shrine.first
     hr
-    = render 'shrine_card'
-    hr
-    = render 'shrine_card'
 
   .mdl-cell.mdl-cell--8  id='map-canvas'
 
