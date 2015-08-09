@@ -1,12 +1,5 @@
-
 class GoogleMap
-  attachMessage = (marker, msg) ->
-    google.maps.event.addListener(marker, 'click', (event) ->
-      new google.maps.InfoWindow({content: msg}
-      ).open(marker.getMap(), marker)
-    )
-
-  show: (zoom) ->
+  constructor: ->
     styles = [
       {
         stylers: [
@@ -37,9 +30,19 @@ class GoogleMap
         mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
       }
 
-    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions)
-    map.mapTypes.set('map_style', styledMap)
-    map.setMapTypeId('map_style')
+    @map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions)
+    @map.mapTypes.set('map_style', styledMap)
+    @map.setMapTypeId('map_style')
+
+  setCenter: (lat, lng) ->
+    @map.setCenter({lat: lat, lng: lng})
+    new google.maps.Marker({position: {lat: lat, lng: lng}, map: @map})
 
 $ ->
-  new GoogleMap().show(8)
+  mMap = new GoogleMap
+
+  $('.move-camera').click (e) ->
+    lat = $(e.target).data('shrine-lat')
+    lng = $(e.target).data('shrine-lng')
+    mMap.setCenter(lat, lng)
+
