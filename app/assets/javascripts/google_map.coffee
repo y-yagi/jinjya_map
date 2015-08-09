@@ -3,7 +3,7 @@ class GoogleMap
     styles = [
       {
         stylers: [
-          { hue: "#f44336" },
+          { hue: "#4CAF50" },
           { saturation: -20 }
         ]
       },{
