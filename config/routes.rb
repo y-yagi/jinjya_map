@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  root 'index#index'
+  root 'shrines#index'
+  get  'index/search'
 
   resources :deities
-  resources :shrines
+  resources :shrines do
+    get :search, on: :collection
+  end
 end
