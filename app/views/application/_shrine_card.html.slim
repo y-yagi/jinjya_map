@@ -4,7 +4,9 @@
       = shrine.name
 
   .mdl-card__supporting-text
-    = shrine.address
+    = "祭神: #{shrine.deities.map(&:name).join(', ')}"
+    br
+    = "住所: #{shrine.address}"
 
   .mdl-card__actions.mdl-card--border
     a.mdl-button.mdl-button--colored.mdl-js-button.move-camera data-shrine-lat="#{shrine.latitude}" data-shrine-lng="#{shrine.longitude}"
