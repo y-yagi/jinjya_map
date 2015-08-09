@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'moji'
 gem 'geocoder'
 gem 'ransack'
+gem 'turbolinks', github: 'rails/turbolinks'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -21,6 +22,7 @@ gem 'ransack'
 group :development, :test do
   gem 'byebug'
   gem 'pry-byebug'
+  gem 'pry-rails'
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end

@@ -11,7 +11,7 @@ class ShrinesController < ApplicationController
   def search
     @q = Shrine.ransack(params[:q])
     @shrines = @q.result(distinct: true)
-    render :index
+    render :index, change: :shrines
   end
 
   # GET /shrines/1
