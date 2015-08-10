@@ -45,4 +45,5 @@ $ ->
     lat = $(e.target).data('shrine-lat')
     lng = $(e.target).data('shrine-lng')
     mMap.setCenter(lat, lng)
+    Cookies.set('shrine_history', $(e.target).data('shrine-id'))
 

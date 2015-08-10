@@ -29,5 +29,6 @@ end
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-material-design-lite'
+  gem 'rails-assets-js-cookie'
 end
 

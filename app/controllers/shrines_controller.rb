@@ -1,15 +1,15 @@
 class ShrinesController < ApplicationController
-  before_action :set_shrine, only: [:show, :edit, :update, :destroy]
+  before_action :set_shrine, only: [:edit, :update, :destroy]
 
   # GET /shrines
   # GET /shrines.json
   def index
-    @q = Shrine.ransack
-    @shrines = Shrine.all
+    setup_index
+    @shrines = Shrine.all # TODO: 最新登録されたデータ順にする?
   end
 
   def search
-    @q = Shrine.ransack(params[:q])
+    setup_index
     @shrines = @q.result(distinct: true)
     render :index, change: :shrines
   end
@@ -17,6 +17,9 @@ class ShrinesController < ApplicationController
   # GET /shrines/1
   # GET /shrines/1.json
   def show
+    setup_index
+    @shrines = Shrine.where(id: params[:id])
+    render :index, change: :shrines
   end
 
   # GET /shrines/new
@@ -69,13 +72,22 @@ class ShrinesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
+    def setup_index
+      @q = Shrine.ransack(params[:q])
+      set_history
+    end
+
     def set_shrine
       @shrine = Shrine.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
     def shrine_params
       params.require(:shrine).permit(:name, :name_hiragana, :name_katakana, :detail, :longitude, :latitude, :address, :hp, :tags)
+    end
+
+    def set_history
+      if cookies[:shrine_history]
+        @shrine_histories = Shrine.where(id: cookies[:shrine_history])
+      end
     end
 end

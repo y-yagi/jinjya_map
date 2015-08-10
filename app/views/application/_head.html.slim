@@ -8,4 +8,8 @@ header.mdl-layout__header
     | 最近見たページ
 
   nav.mdl-navigation
-    a.mdl-navigation__link href="" abc
+    - if @shrine_histories.blank?
+      | 履歴はありません
+    - else
+      - @shrine_histories.each do |shrine|
+        = link_to shrine.name, shrine, class: 'mdl-navigation__link', remote: true

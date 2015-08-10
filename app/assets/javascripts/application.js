@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require material-design-lite
 //= require turbolinks
+//= require js-cookie
 //= require_tree .
