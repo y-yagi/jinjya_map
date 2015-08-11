@@ -38,7 +38,8 @@ class GoogleMap
     @map.setCenter({lat: lat, lng: lng})
     new google.maps.Marker({position: {lat: lat, lng: lng}, map: @map})
 
-$ ->
+
+$(document).on('ready page:partial-load', (event) ->
   mMap = new GoogleMap
 
   $('.move-camera').click (e) ->
@@ -46,4 +47,4 @@ $ ->
     lng = $(e.target).data('shrine-lng')
     mMap.setCenter(lat, lng)
     Cookies.set('shrine_history', $(e.target).data('shrine-id'))
-
+)
