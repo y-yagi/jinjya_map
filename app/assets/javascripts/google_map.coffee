@@ -39,12 +39,22 @@ class GoogleMap
     new google.maps.Marker({position: {lat: lat, lng: lng}, map: @map})
 
 
+
 $(document).on('ready page:partial-load', (event) ->
-  mMap = new GoogleMap
+  mMap = new GoogleMap unless mMap
 
   $('.move-camera').click (e) ->
     lat = $(e.target).data('shrine-lat')
     lng = $(e.target).data('shrine-lng')
     mMap.setCenter(lat, lng)
-    Cookies.set('shrine_history', $(e.target).data('shrine-id'))
+    setBrowsingHistory($(e.target).data('shrine-id'))
 )
+
+setBrowsingHistory = (shrine_id) ->
+  shrine_ids = Cookies.get('shrine_history')
+  if _.isEmpty(shrine_ids)
+    shrine_ids = shrine_id
+  else
+    shrine_ids = shrine_id + ',' + shrine_ids
+
+  Cookies.set('shrine_history', shrine_ids)

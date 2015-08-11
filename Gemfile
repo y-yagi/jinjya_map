@@ -13,6 +13,7 @@ gem 'moji'
 gem 'geocoder'
 gem 'ransack'
 gem 'turbolinks', github: 'rails/turbolinks'
+gem 'order_as_specified'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -30,5 +31,6 @@ end
 source 'https://rails-assets.org' do
   gem 'rails-assets-material-design-lite'
   gem 'rails-assets-js-cookie'
+  gem 'rails-assets-lodash'
 end
 

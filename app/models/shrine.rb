@@ -1,4 +1,5 @@
 class Shrine < ActiveRecord::Base
+  extend OrderAsSpecified
   has_and_belongs_to_many :deities
 
   validates :name, presence: true
@@ -7,6 +8,8 @@ class Shrine < ActiveRecord::Base
 
   before_save :set_geoinfo
   before_save :set_name_katakana
+
+  HISTORY_SIZE = 10
 
   def set_geoinfo
     geo_info = Geocoder.search(address)

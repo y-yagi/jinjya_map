@@ -87,7 +87,12 @@ class ShrinesController < ApplicationController
 
     def set_history
       if cookies[:shrine_history]
-        @shrine_histories = Shrine.where(id: cookies[:shrine_history])
+        shrine_ids = cookies[:shrine_history].split(',').uniq
+        if shrine_ids.size > Shrine::HISTORY_SIZE
+          shrine_ids.pop(shrine_ids.size - Shrine::HISTORY_SIZE)
+        end
+        @shrine_histories = Shrine.order_as_specified(id: shrine_ids)
+        cookies[:shrine_history] = shrine_ids.join(',')
       end
     end
 end
