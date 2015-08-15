@@ -16,17 +16,16 @@ setBrowsingHistory = (shrine_id) ->
 
 
 $(document).on('ready', (event) ->
-  mMap = new GoogleMap unless mMap
-  setCameraLink(mMap)
+  map = new GoogleMap unless map
+  setCameraLink(map)
 )
 
 $(document).on('page:partial-load', (event) ->
-
-  mMap = new GoogleMap unless mMap
+  map = new GoogleMap unless map
   lat = $('#shrines').find('a').data('shrine-lat')
   lng = $('#shrines').find('a').data('shrine-lng')
-  mMap.setCenter(lat, lng)
+  map.setCenter(lat, lng)
 
-  setCameraLink(mMap)
+  setCameraLink(map)
 )
 
