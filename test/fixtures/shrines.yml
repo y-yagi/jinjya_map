@@ -1,23 +1,49 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+ooasahiko:
+  name: 大麻比古神社
+  name_hiragana: おおあさひこじんじゃ
+  name_katakana: オオアサヒコジンジャ
+  address: 徳島県鳴門市大麻町板東字広塚13
+  latitude: 34.1709697
+  longitude: 134.5025694
+  hp: http://www.ooasahikojinja.jp/
+  deities:
+    - ooasahiko
+    - sarutahiko
 
-one:
-  name: MyString
-  name_hiragana: MyString
-  name_katakana: MyString
-  detail: MyText
-  longitude: 1.5
-  latitude: 1.5
-  address: MyString
-  hp: MyString
-  tags: MyText
+ooyamazumi:
+  name: 大山祇神社
+  name_hiragana: おおやまづみじんじゃ
+  name_katakana: オオヤマヅミジンジャ
+  address: 愛媛県今治市大三島町宮浦3327番地
+  latitude: 34.2484125
+  longitude: 133.0049172
+  deities:
+    - ooyamatsumi
 
-two:
-  name: MyString
-  name_hiragana: MyString
-  name_katakana: MyString
-  detail: MyText
-  longitude: 1.5
-  latitude: 1.5
-  address: MyString
-  hp: MyString
-  tags: MyText
+tosa:
+  name: 土佐神社
+  name_hiragana: とさじんじゃ
+  name_katakana: トサジンジャ
+  address: 高知県高知市しなね2丁目16-1
+  latitude: 33.5926473
+  longitude: 133.5769853
+  hp: http://www.tosajinja.i-tosa.com
+  deities:
+    - ajisukitakahikone
+    - hitokotonusi
+
+tamura:
+  name: 田村神社
+  name_hiragana: たむらじんじゃ
+  name_katakana: タムラジンジャ
+  address: 香川県高松市一宮町字宮東286番地
+  latitude: 34.2842323
+  longitude: 134.024714
+  hp: http://tamurajinja.com/
+  deities:
+    - yamatototohimomosohime
+    - isaserihiko
+    - sarutahiko
+    - amanokaguyama
+    - amenoitane
+

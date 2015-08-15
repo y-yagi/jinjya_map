@@ -1,15 +1,45 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+ooasahiko:
+  name: 大麻比古神
+  name_hiragana: おおあさひこかみ
+  name_katakana: オオアサヒコカミ
 
-one:
-  name: MyString
-  name_hiragana: MyString
-  name_katakana: MyString
-  detail: MyText
-  tags: MyText
+sarutahiko:
+  name: 猿田彦神
+  name_hiragana: さるたひこのかみ
+  name_katakana: サルタヒコノカミ
 
-two:
-  name: MyString
-  name_hiragana: MyString
-  name_katakana: MyString
-  detail: MyText
-  tags: MyText
+ooyamatsumi:
+  name: 大山祇神
+  name_hiragana: おおやまつみのかみ
+  name_katakana: オオヤマツミノカミ
+
+ajisukitakahikone:
+  name: 味鋤高彦根神
+  name_hiragana: あじすきたかひこねのかみ
+  name_katakana: アジスキタカヒコネノカミ
+
+hitokotonusi:
+  name: 一言主神
+  name_hiragana: ひとことぬしのかみ
+  name_katakana: ヒトコトヌシノカミ
+
+yamatototohimomosohime:
+  name: 倭迹迹日百襲姫命
+  name_hiragana: やまとととひももそひめのみこと
+  name_katakana: ヤマトトトヒモモソヒメノミコト
+
+isaserihiko:
+  name: 五十狭芹彦命
+  name_hiragana: いさせりひこのみこと
+  name_katakana: イサセリヒコノミコト
+
+amanokaguyama:
+  name: 天隠山命
+  name_hiragana: あめのかぐやまのみこと
+  name_katakana: アメノカグヤマノミコト
+
+amenoitane:
+  name: 天五田根命
+  name_hiragana: あめのいたねのみこと
+  name_hiragana: アメノイタネノミコト
+
