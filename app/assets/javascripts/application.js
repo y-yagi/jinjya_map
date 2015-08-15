@@ -16,4 +16,5 @@
 //= require turbolinks
 //= require lodash
 //= require js-cookie
+//= require google_map
 //= require_tree .
