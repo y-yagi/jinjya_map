@@ -12,4 +12,5 @@ header.mdl-layout__header
       | 履歴はありません
     - else
       - @shrine_histories.each do |shrine|
-        = link_to shrine.name, shrine, class: 'mdl-navigation__link', remote: true
+        a.mdl-navigation__link.move-camera data-shrine-lat="#{shrine.latitude}" data-shrine-lng="#{shrine.longitude}" data-shrine-id="#{shrine.id}"
+          = shrine.name

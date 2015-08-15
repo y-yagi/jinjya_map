@@ -1,5 +1,5 @@
 class ShrinesController < ApplicationController
-  before_action :set_shrine, only: [:edit, :update, :destroy]
+  before_action :set_shrine, only: [:show, :edit, :update, :destroy]
 
   # GET /shrines
   # GET /shrines.json
@@ -17,9 +17,6 @@ class ShrinesController < ApplicationController
   # GET /shrines/1
   # GET /shrines/1.json
   def show
-    setup_index
-    @shrines = Shrine.where(id: params[:id])
-    render :index, change: :shrines
   end
 
   # GET /shrines/new
