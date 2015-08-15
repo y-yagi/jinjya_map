@@ -15,17 +15,8 @@ setBrowsingHistory = (shrine_id) ->
   Cookies.set('shrine_history', shrine_ids)
 
 
-$(document).on('ready', (event) ->
+$(document).on('ready page:partial-load', (event) ->
   map = new GoogleMap unless map
-  setCameraLink(map)
-)
-
-$(document).on('page:partial-load', (event) ->
-  map = new GoogleMap unless map
-  lat = $('#shrines').find('a').data('shrine-lat')
-  lng = $('#shrines').find('a').data('shrine-lng')
-  map.setCenter(lat, lng)
-
   setCameraLink(map)
 )
 
