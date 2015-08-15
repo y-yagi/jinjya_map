@@ -38,17 +38,27 @@ class GoogleMap
     @map.setCenter({lat: lat, lng: lng})
     new google.maps.Marker({position: {lat: lat, lng: lng}, map: @map})
 
-
-
-$(document).on('ready page:partial-load', (event) ->
+$(document).on('ready', (event) ->
   mMap = new GoogleMap unless mMap
+  setCameraLink(mMap)
+)
 
+$(document).on('page:partial-load', (event) ->
+
+  mMap = new GoogleMap unless mMap
+  lat = $('#shrines').find('a').data('shrine-lat')
+  lng = $('#shrines').find('a').data('shrine-lng')
+  mMap.setCenter(lat, lng)
+
+  setCameraLink(mMap)
+)
+
+setCameraLink = (map) ->
   $('.move-camera').click (e) ->
     lat = $(e.target).data('shrine-lat')
     lng = $(e.target).data('shrine-lng')
-    mMap.setCenter(lat, lng)
+    map.setCenter(lat, lng)
     setBrowsingHistory($(e.target).data('shrine-id'))
-)
 
 setBrowsingHistory = (shrine_id) ->
   shrine_ids = Cookies.get('shrine_history')
