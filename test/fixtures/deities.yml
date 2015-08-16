@@ -43,3 +43,23 @@ amenoitane:
   name_hiragana: あめのいたねのみこと
   name_hiragana: アメノイタネノミコト
 
+shiotuchi:
+  name: 塩土老翁神
+  name_hiragana: しおつちのおじ
+  name_katakana: シオツチノオジ
+
+takemikaduchi:
+  name: 武甕槌神
+  name_hiragana: たけみかづち
+  name_katakana: タケミカヅチ
+
+futsunushi:
+  name: 経津主神
+  name_hiragana: ふつぬしのみこと
+  name_katakana: フツヌシノミコト
+
+yamatotakeru:
+  name: 日本武尊
+  name_hiragana: やまとたけるのみこと
+  name_katakana: ヤマトタケルノミコト
+
