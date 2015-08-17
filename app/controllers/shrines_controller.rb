@@ -5,7 +5,7 @@ class ShrinesController < ApplicationController
   # GET /shrines.json
   def index
     setup_index
-    @shrines = Shrine.all # TODO: 最新登録されたデータ順にする?
+    @shrines = Shrine.latest
   end
 
   def search

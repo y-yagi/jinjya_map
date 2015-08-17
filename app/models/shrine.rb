@@ -1,4 +1,6 @@
 class Shrine < ActiveRecord::Base
+  HISTORY_SIZE = 10
+
   extend OrderAsSpecified
   has_and_belongs_to_many :deities
 
@@ -9,7 +11,7 @@ class Shrine < ActiveRecord::Base
   before_save :set_geoinfo
   before_save :set_name_katakana
 
-  HISTORY_SIZE = 10
+  scope :latest, -> { order('updated_at DESC').limit(5) }
 
   def set_geoinfo
     geo_info = Geocoder.search(address)
