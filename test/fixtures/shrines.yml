@@ -82,3 +82,35 @@ yatsuki_tsutsukowake:
     - ajisukitakahikone
     - yamatotakeru
 
+choukaisan_honsha:
+  name: 鳥海山大物忌神社 山頂御本社
+  name_hiragana: ちょうかいさんおおものいみじんじゃ さんちょうごほんしゃ
+  name_katakana: チョウカイサノオオモノイミジンジャ サンチョウゴホンシャ
+  address: 山形県飽海郡遊佐町大字吹浦字鳥海山1
+  latitude: 39.1064993
+  longitude: 139.9785808
+  hp: http://www9.plala.or.jp/thoukai/
+  deities:
+    - oomonomi
+
+choukaisan_kotoura:
+  name: 鳥海山大物忌神社 吹浦口ノ宮
+  name_hiragana: ちょうかいさんおおものいみじんじゃ ことうらくちのみや
+  name_katakana: チョウカイサノオオモノイミジンジャ コトウラクチノミヤ
+  address: 山形県飽海郡遊佐町大字吹浦字布倉1
+  latitude: 39.0741361
+  longitude: 139.8790282
+  deities:
+    - oomonomi
+    - tsukuyomi
+
+choukaisan_warabi:
+  name: 鳥海山大物忌神社 蕨岡口之宮
+  name_hiragana: ちょうかいさんおおものいみじんじゃ わらびおかくちのみや
+  name_katakana: チョウカイサノオオモノイミジンジャ ワラビオカクチノミヤ
+  address: 山形県飽海郡遊佐町大字上蕨岡字松ヶ岡51
+  latitude: 39.0043735
+  longitude: 139.9608565
+  deities:
+    - oomonomi
+
