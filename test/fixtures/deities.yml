@@ -72,3 +72,24 @@ tsukuyomi:
   name: 月読命
   name_hiragana: つくよみのみこと
   name_katakana: ツクヨミノミコト
+
+himeookami:
+  name: 姫大神
+  name_hiragana: ひめおおかみ
+  name_katakana: ヒメオオカミ
+
+toyokiirihiko:
+  name: 豊城入彦命
+  name_hiragana: とよきいりひこのみこと
+  name_katakana: トヨキイリヒノミコト
+
+oonamuchi:
+  name: 大己貴命
+  name_hiragana: おおなむちのみこと
+  name_katakana: オオナムチノミコト
+
+tagorihime:
+  name: 田心姫命
+  name_hiragana: たごりひめのみこと
+  name_katakana: タゴリヒメノミコト
+

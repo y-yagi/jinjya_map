@@ -114,3 +114,41 @@ choukaisan_warabi:
   deities:
     - oomonomi
 
+nukisaki:
+  name: 一之宮貫前神社
+  name_hiragana: いちのみやぬきさきじんじゃ
+  name_katakana: イチノミヤヌキサキジンジャ
+  address: 群馬県富岡市一ノ宮1535
+  latitude: 36.25498839999999
+  longitude: 138.8577465
+  hp: http://nukisaki.or.jp/
+  deities:
+    - futsunushi
+    - himeookami
+
+futaara_utsunomiya:
+  name: 宇都宮二荒山神社
+  name_hiragana: うつのみやふたあらやまじんじゃ
+  name_katakana: ウツノミヤフタアラヤマジンジャ
+  address: 栃木県宇都宮市馬場通り1-1-1
+  latitude: 36.5623754
+  longitude: 139.8850151
+  deities:
+    - toyokiirihiko
+
+futaara_nikkou:
+  name: 日光二荒山神社
+  name_hiragana: にっこうふたらさんじんじゃ
+  name_katakana: ニッコウフタラサンジンジャ
+  address: 栃木県日光市山内2307
+  latitude: 36.7585541
+  longitude: 139.5967885
+  hp: http://www.futarasan.jp/index.shtml
+  deities:
+    - oonamuchi
+    - tagorihime
+    - ajisukitakahikone
+
+
+
+
