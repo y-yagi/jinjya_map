@@ -1,7 +1,10 @@
 .mdl-card.mdl-shadow--2dp.shrine-card-wide
   .mdl-card__title
     h2.mdl-card__title-text
-      = shrine.name
+      - if shrine.hp.present?
+        = link_to "#{shrine.name}(#{shrine.name_hiragana})", shrine.hp, { target: :'_blank' }
+      - else
+        = "#{shrine.name}(#{shrine.name_hiragana})"
 
   .mdl-card__supporting-text
     = "祭神: #{shrine.deities.map(&:name).join(', ')}"
