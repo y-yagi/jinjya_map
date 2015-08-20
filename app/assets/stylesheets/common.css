@@ -1,8 +1,10 @@
 .shrine-card-wide.mdl-card {
-  min-width: 550px;
+  max-width: 900px;
+  width: 100%;
 }
 
 #map-canvas {
   height: 700px;
-  width: 800px;
+  max-width: 1000px;
+  width: 100%;
 }
