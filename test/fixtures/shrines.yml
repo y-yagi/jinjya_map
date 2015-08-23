@@ -9,6 +9,8 @@ ooasahiko:
   deities:
     - ooasahiko
     - sarutahiko
+  tags:
+    - 一宮
 
 ooyamazumi:
   name: 大山祇神社
@@ -19,6 +21,8 @@ ooyamazumi:
   longitude: 133.0049172
   deities:
     - ooyamatsumi
+  tags:
+    - 一宮
 
 tosa:
   name: 土佐神社
@@ -31,6 +35,8 @@ tosa:
   deities:
     - ajisukitakahikone
     - hitokotonusi
+  tags:
+    - 一宮
 
 tamura:
   name: 田村神社
@@ -46,6 +52,8 @@ tamura:
     - sarutahiko
     - amanokaguyama
     - amenoitane
+  tags:
+    - 一宮
 
 shiogama:
   name: 鹽竈神社
@@ -59,6 +67,8 @@ shiogama:
     - shiotuchi
     - takemikaduchi
     - futsunushi
+  tags:
+    - 一宮
 
 baba_tsutsukowake:
   name: 都都古和氣神社
@@ -70,6 +80,8 @@ baba_tsutsukowake:
   deities:
     - ajisukitakahikone
     - yamatotakeru
+  tags:
+    - 一宮
 
 yatsuki_tsutsukowake:
   name: 都々古別神社
@@ -81,6 +93,8 @@ yatsuki_tsutsukowake:
   deities:
     - ajisukitakahikone
     - yamatotakeru
+  tags:
+    - 一宮
 
 choukaisan_honsha:
   name: 鳥海山大物忌神社 山頂御本社
@@ -92,6 +106,8 @@ choukaisan_honsha:
   hp: http://www9.plala.or.jp/thoukai/
   deities:
     - oomonomi
+  tags:
+    - 一宮
 
 choukaisan_kotoura:
   name: 鳥海山大物忌神社 吹浦口ノ宮
@@ -103,6 +119,8 @@ choukaisan_kotoura:
   deities:
     - oomonomi
     - tsukuyomi
+  tags:
+    - 一宮
 
 choukaisan_warabi:
   name: 鳥海山大物忌神社 蕨岡口之宮
@@ -113,6 +131,8 @@ choukaisan_warabi:
   longitude: 139.9608565
   deities:
     - oomonomi
+  tags:
+    - 一宮
 
 nukisaki:
   name: 一之宮貫前神社
@@ -125,6 +145,8 @@ nukisaki:
   deities:
     - futsunushi
     - himeookami
+  tags:
+    - 一宮
 
 futaara_utsunomiya:
   name: 宇都宮二荒山神社
@@ -135,6 +157,8 @@ futaara_utsunomiya:
   longitude: 139.8850151
   deities:
     - toyokiirihiko
+  tags:
+    - 一宮
 
 futaara_nikkou:
   name: 日光二荒山神社
@@ -148,7 +172,5 @@ futaara_nikkou:
     - oonamuchi
     - tagorihime
     - ajisukitakahikone
-
-
-
-
+  tags:
+    - 一宮
