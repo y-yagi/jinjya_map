@@ -35,3 +35,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-lodash'
 end
 
+group :production do
+  gem 'unicorn'
+  gem 'rails_12factor'
+end
+
