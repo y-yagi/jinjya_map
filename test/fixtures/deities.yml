@@ -93,3 +93,44 @@ tagorihime:
   name_hiragana: たごりひめのみこと
   name_katakana: タゴリヒメノミコト
 
+samukawahiko:
+  name: 寒川比古命
+  name_hiragana: さむかわひこのみこと
+  name_katakana: サムカワヒコノミコト
+
+samukawahime:
+  name: 寒川比女命
+  name_hiragana: さむかわひめのみこと
+  name_katakana: サムカワヒメノミコト
+
+amenoshita:
+  name: 天ノ下春命
+  name_hiragana: あめのしたはるのみこと
+  name_katakana: アメノシタハルノミコト
+
+seoritsu:
+  name: 瀬織津姫
+  name_hiragana: せおりつひめ
+  name_katakana: セオリツヒメ
+  tags:
+    - 祓戸四神
+
+susanoo:
+  name: 須佐之男命
+  name_hiragana: すさのおのみこと
+  name_katakana: スサノオノミコト
+
+inadahime:
+  name: 稲田姫命
+  name_hiragana: いなだひめのみこと
+  name_katakana: イナダヒメノミコト
+
+tamayori:
+  name: 玉依姫命
+  name_hiragana: たまよりひめのみこと
+  name_katakana: タマヨリヒメノミコト
+
+amenofutodama:
+  name: 天太玉命
+  name_hiragana: あめのふとだまのみこと
+  name_katakana: アメノフトダマノミコト
