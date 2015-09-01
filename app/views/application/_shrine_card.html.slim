@@ -1,10 +1,7 @@
 .mdl-card.mdl-shadow--2dp.shrine-card-wide
   .mdl-card__title
     h2.mdl-card__title-text
-      - if shrine.hp.present?
-        = link_to "#{shrine.name}(#{shrine.name_hiragana})", shrine.hp, { target: :'_blank' }
-      - else
-        = "#{shrine.name}(#{shrine.name_hiragana})"
+      = "#{shrine.name}(#{shrine.name_hiragana})"
 
   .mdl-card__supporting-text
     = "祭神: #{shrine.deities.map(&:name).join(', ')}"
@@ -13,4 +10,6 @@
 
   .mdl-card__actions.mdl-card--border
     a.mdl-button.mdl-button--colored.mdl-js-button.move-camera data-shrine-lat="#{shrine.latitude}" data-shrine-lng="#{shrine.longitude}" data-shrine-id="#{shrine.id}"
-      | 表示
+      | 地図に表示
+    - if shrine.hp.present?
+      = link_to "HP", shrine.hp, { target: :'_blank', class: 'mdl-button mdl-button--colored mdl-js-button'}
