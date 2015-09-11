@@ -5,7 +5,7 @@ class ShrinesController < ApplicationController
   # GET /shrines.json
   def index
     setup_index
-    @shrines = Shrine.latest
+    @shrines = Shrine.preload(:deities).latest
   end
 
   def search
