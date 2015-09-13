@@ -2,7 +2,7 @@ require 'test_helper'
 
 class ShrinesControllerTest < ActionController::TestCase
   setup do
-    @shrine = shrines(:one)
+    @shrine = shrines(:ooasahiko)
   end
 
   test "should get index" do
