@@ -5,6 +5,13 @@ GIT
     turbolinks (3.0.0)
       coffee-rails
 
+PATH
+  remote: /home/yaginuma/program/ruby/rake-guardian
+  specs:
+    rake-guardian (0.1.0)
+      activesupport
+      rake (~> 10.0)
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -209,6 +216,7 @@ DEPENDENCIES
   rails-assets-material-design-lite!
   rails-footnotes (~> 4.0)
   rails_12factor
+  rake-guardian!
   ransack
   sass-rails (~> 5.0)
   slim-rails

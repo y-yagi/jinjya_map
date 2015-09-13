@@ -20,6 +20,7 @@ gem 'order_as_specified'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
+gem 'rake-guardian', path: '/home/yaginuma/program/ruby/rake-guardian'
 
 group :development, :test do
   gem 'byebug'
