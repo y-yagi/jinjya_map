@@ -15,6 +15,7 @@ gem 'geocoder'
 gem 'ransack'
 gem 'turbolinks', github: 'rails/turbolinks'
 gem 'order_as_specified'
+gem 'puma'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
