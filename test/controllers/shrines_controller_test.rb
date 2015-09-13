@@ -18,7 +18,9 @@ class ShrinesControllerTest < ActionController::TestCase
 
   test "should create shrine" do
     assert_difference('Shrine.count') do
-      post :create, shrine: { address: @shrine.address, detail: @shrine.detail, hp: @shrine.hp, latitude: @shrine.latitude, longitude: @shrine.longitude, name: @shrine.name, name_hiragana: @shrine.name_hiragana, name_katakana: @shrine.name_katakana, tags: @shrine.tags }
+      VCR.use_cassette("shrine_create") do
+        post :create, shrine: { address: @shrine.address, detail: @shrine.detail, hp: @shrine.hp, latitude: @shrine.latitude, longitude: @shrine.longitude, name: @shrine.name, name_hiragana: @shrine.name_hiragana, name_katakana: @shrine.name_katakana, tags: @shrine.tags }
+      end
     end
 
     assert_redirected_to shrine_path(assigns(:shrine))
@@ -35,7 +37,10 @@ class ShrinesControllerTest < ActionController::TestCase
   end
 
   test "should update shrine" do
-    patch :update, id: @shrine, shrine: { address: @shrine.address, detail: @shrine.detail, hp: @shrine.hp, latitude: @shrine.latitude, longitude: @shrine.longitude, name: @shrine.name, name_hiragana: @shrine.name_hiragana, name_katakana: @shrine.name_katakana, tags: @shrine.tags }
+    VCR.use_cassette("shrine_update") do
+      patch :update, id: @shrine, shrine: { address: @shrine.address, detail: @shrine.detail, hp: @shrine.hp, latitude: @shrine.latitude, longitude: @shrine.longitude, name: @shrine.name, name_hiragana: @shrine.name_hiragana, name_katakana: @shrine.name_katakana, tags: @shrine.tags }
+    end
+
     assert_redirected_to shrine_path(assigns(:shrine))
   end
 
