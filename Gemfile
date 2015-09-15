@@ -31,6 +31,11 @@ group :development, :test do
   gem 'rails-footnotes', '~> 4.0'
 end
 
+group :test do
+  gem 'vcr'
+  gem 'webmock'
+end
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-material-design-lite'
   gem 'rails-assets-js-cookie'
