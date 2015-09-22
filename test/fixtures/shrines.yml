@@ -269,3 +269,124 @@ awa:
   tags:
     - 一宮
 
+asama_fuefuki:
+  name: 浅間神社
+  name_hiragana: あさまじんじゃ
+  name_katakana: アサマジンジャ
+  address: 山梨県笛吹市一宮町一宮1684
+  latitude: 35.6477503
+  longitude: 138.6974607
+  hp: http://asamajinja.jp/
+  deities:
+    - konohanasakuya
+  tags:
+    - 一宮
+
+okuni:
+  name: 小国神社
+  name_hiragana: おくにじんじゃ
+  name_katakana: オクニジンジャ
+  address: 静岡県周智郡森町一宮3956-1
+  latitude: 34.847355
+  longitude: 137.8994406
+  hp: http://www.okunijinja.or.jp/
+  deities:
+    - oonamuchi
+  tags:
+    - 一宮
+
+kotonomama:
+  name: 事任八幡宮
+  name_hiragana: ことのままはちまんぐう
+  name_katakana: コトノママハチマングウ
+  address: 静岡県掛川市八坂642
+  latitude: 34.79839
+  longitude: 138.0754278
+  hp: http://www.geocities.jp/kotonomachihime/
+  deities:
+    - kotonomachi
+  tags:
+    - 一宮
+
+honguu_asama:
+  name: 富士山本宮浅間大社
+  name_hiragana: ふじさんほんぐうせんげんたいしゃ
+  name_katakana: フジサンホングウセンゲンタイシャ
+  address: 静岡県富士宮市宮町1-1
+  latitude: 35.2253894
+  longitude: 138.6102606
+  hp: http://www.fuji-hongu.or.jp/sengen/index.html
+  deities:
+    - konohanasakuya
+  tags:
+    - 一宮
+
+mishima:
+  name: 三嶋大社
+  name_hiragana: みしまたいしゃ
+  name_katakana: ミシマタイシャ
+  address: 静岡県三島市大宮町二丁目1番5号
+  latitude: 35.1221633
+  longitude: 138.9194235
+  hp: http://www.mishimataisha.or.jp/
+  deities:
+    - ooyamatsumi
+    - kotoshironushi
+  tags:
+    - 一宮
+
+suwa_honmiya:
+  name: 諏訪大社-上社本宮
+  name_hiragana: すわたいしゃ-かみしゃほんみや
+  name_katakana: スワタイシャ-カミシャホンミヤ
+  address: 長野県諏訪市中洲宮山１
+  latitude: 36.0238132
+  longitude: 138.1180956
+  hp: http://suwataisha.or.jp/
+  deities:
+    - takeminakata
+    - yasakatomenokami
+  tags:
+    - 一宮
+
+suwa_maemiya:
+  name: 諏訪大社-上社前宮
+  name_hiragana: すわたいしゃ-かみしゃまえみや
+  name_katakana: スワタイシャ-カミシャマエミヤ
+  address: 長野県茅野市宮川2030
+  latitude: 35.9926868
+  longitude: 138.134151
+  hp: http://suwataisha.or.jp/
+  deities:
+    - takeminakata
+    - yasakatomenokami
+  tags:
+    - 一宮
+
+suwa_harumiya:
+  name: 諏訪大社-下社春宮
+  name_hiragana: すわたいしゃ-しもしゃはるみや
+  name_katakana: スワタイシャ-シモシャハルミヤ
+  address: 長野県諏訪郡下諏訪町大門193
+  latitude: 36.0812933
+  longitude: 138.0808762
+  hp: http://suwataisha.or.jp/
+  deities:
+    - takeminakata
+    - yasakatomenokami
+  tags:
+    - 一宮
+
+suwa_akimiya:
+  name: 諏訪大社-下社秋宮
+  name_hiragana: すわたいしゃ-しもしゃあきみや
+  name_katakana: スワタイシャ-シモシャアキミヤ
+  address: 長野県諏訪郡下諏訪町上久保5828
+  latitude: 36.0749643
+  longitude: 138.0907104
+  hp: http://suwataisha.or.jp/
+  deities:
+    - takeminakata
+    - yasakatomenokami
+  tags:
+    - 一宮
