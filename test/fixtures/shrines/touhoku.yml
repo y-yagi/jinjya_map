@@ -1,0 +1,81 @@
+_fixture:
+  model_class: Shrine
+
+shiogama:
+  name: 鹽竈神社
+  name_hiragana: しおがまじんじゃ
+  name_katakana: シオガマジンジャ
+  address: 宮城県塩竈市一森山1-1
+  latitude: 38.3190559
+  longitude: 141.0136251
+  hp: http://www.shiogamajinja.jp/
+  deities:
+    - shiotuchi
+    - takemikaduchi
+    - futsunushi
+  tags:
+    - 一宮
+
+baba_tsutsukowake:
+  name: 都都古和氣神社
+  name_hiragana: つつこわけじんじゃ
+  name_katakana: ツツコワケジンジャ
+  address: 福島県東白川郡棚倉町棚倉字馬場39
+  latitude: 37.0320717
+  longitude: 140.3759179
+  deities:
+    - ajisukitakahikone
+    - yamatotakeru
+  tags:
+    - 一宮
+
+yatsuki_tsutsukowake:
+  name: 都々古別神社
+  name_hiragana: つつこわけじんじゃ
+  name_katakana: ツツコワケジンジャ
+  address: 福島県東白川郡棚倉町八槻字大宮224
+  latitude: 36.9945683
+  longitude: 140.3920822
+  deities:
+    - ajisukitakahikone
+    - yamatotakeru
+  tags:
+    - 一宮
+
+choukaisan_honsha:
+  name: 鳥海山大物忌神社 山頂御本社
+  name_hiragana: ちょうかいさんおおものいみじんじゃ さんちょうごほんしゃ
+  name_katakana: チョウカイサノオオモノイミジンジャ サンチョウゴホンシャ
+  address: 山形県飽海郡遊佐町大字吹浦字鳥海山1
+  latitude: 39.1064993
+  longitude: 139.9785808
+  hp: http://www9.plala.or.jp/thoukai/
+  deities:
+    - oomonomi
+  tags:
+    - 一宮
+
+choukaisan_kotoura:
+  name: 鳥海山大物忌神社 吹浦口ノ宮
+  name_hiragana: ちょうかいさんおおものいみじんじゃ ことうらくちのみや
+  name_katakana: チョウカイサノオオモノイミジンジャ コトウラクチノミヤ
+  address: 山形県飽海郡遊佐町大字吹浦字布倉1
+  latitude: 39.0741361
+  longitude: 139.8790282
+  deities:
+    - oomonomi
+    - tsukuyomi
+  tags:
+    - 一宮
+
+choukaisan_warabi:
+  name: 鳥海山大物忌神社 蕨岡口之宮
+  name_hiragana: ちょうかいさんおおものいみじんじゃ わらびおかくちのみや
+  name_katakana: チョウカイサノオオモノイミジンジャ ワラビオカクチノミヤ
+  address: 山形県飽海郡遊佐町大字上蕨岡字松ヶ岡51
+  latitude: 39.0043735
+  longitude: 139.9608565
+  deities:
+    - oomonomi
+  tags:
+    - 一宮
