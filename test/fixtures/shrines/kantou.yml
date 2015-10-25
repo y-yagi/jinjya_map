@@ -1,0 +1,138 @@
+_fixture:
+  model_class: Shrine
+
+nukisaki:
+  name: 一之宮貫前神社
+  name_hiragana: いちのみやぬきさきじんじゃ
+  name_katakana: イチノミヤヌキサキジンジャ
+  address: 群馬県富岡市一ノ宮1535
+  latitude: 36.25498839999999
+  longitude: 138.8577465
+  hp: http://nukisaki.or.jp/
+  deities:
+    - futsunushi
+    - himeookami
+  tags:
+    - 一宮
+
+futaara_utsunomiya:
+  name: 宇都宮二荒山神社
+  name_hiragana: うつのみやふたあらやまじんじゃ
+  name_katakana: ウツノミヤフタアラヤマジンジャ
+  address: 栃木県宇都宮市馬場通り1-1-1
+  latitude: 36.5623754
+  longitude: 139.8850151
+  deities:
+    - toyokiirihiko
+  tags:
+    - 一宮
+
+futaara_nikkou:
+  name: 日光二荒山神社
+  name_hiragana: にっこうふたらさんじんじゃ
+  name_katakana: ニッコウフタラサンジンジャ
+  address: 栃木県日光市山内2307
+  latitude: 36.7585541
+  longitude: 139.5967885
+  hp: http://www.futarasan.jp/index.shtml
+  deities:
+    - oonamuchi
+    - tagorihime
+    - ajisukitakahikone
+  tags:
+    - 一宮
+
+samukawa:
+  name: 寒川神社
+  name_hiragana: さむかわじんじゃ
+  name_katakana: サムカワジンジャ
+  address: 神奈川県高座郡寒川町宮山3916
+  latitude: 35.3788943
+  longitude: 139.3832276
+  hp: http://samukawajinjya.jp/index.html
+  deities:
+    - samukawahiko
+    - samukawahime
+  tags:
+    - 一宮
+
+ono:
+  name: 小野神社
+  name_hiragana: おのじんじゃ
+  name_katakana: オノジンジャ
+  address: 東京都多摩市一の宮1-18-8
+  latitude: 35.6529882
+  longitude: 139.4422677
+  hp: http://onojinja.or.jp/
+  deities:
+    - amenoitane
+    - seoritsu
+  tags:
+    - 一宮
+
+saitama_hikawa:
+  name: 氷川神社
+  name_hiragana: ひかわじんじゃ
+  name_katakana: ヒカワジンジャ
+  address: 埼玉県さいたま市大宮区高鼻町1-407
+  latitude: 35.9148859
+  longitude: 139.6300398
+  hp: http://musashiichinomiya-hikawa.or.jp/
+  deities:
+    - susanoo
+    - inadahime
+    - oonamuchi
+  tags:
+    - 一宮
+
+kashima:
+  name: 鹿島神宮
+  name_hiragana: かしまじんぐう
+  name_katakana: カシマジングウ
+  address: 茨城県鹿嶋市宮中2306-1
+  latitude: 35.9693276
+  longitude: 140.6314418
+  hp: http://kashimajingu.jp/
+  deities:
+    - takemikaduchi
+  tags:
+    - 一宮
+katori:
+  name: 香取神宮
+  name_hiragana: かとりじんぐう
+  name_katakana: カトリジングウ
+  address: 千葉県香取市香取1697
+  latitude: 35.886093
+  longitude: 140.5286981
+  hp: http://www.katori-jingu.or.jp/
+  deities:
+    - futsunushi
+  tags:
+    - 一宮
+
+tamasaki:
+  name: 玉前神社
+  name_hiragana: たまさきじんじゃ
+  name_katakana: タマサキジンジャ
+  address: 千葉県長生郡一宮町一宮3048
+  latitude: 35.3761114
+  longitude: 140.3605186
+  hp: http://www.tamasaki.org/home.htm
+  deities:
+    - tamayori
+  tags:
+    - 一宮
+
+awa:
+  name: 安房神社
+  name_hiragana: あわじんじゃ
+  name_katakana: アワジンジャ
+  address: 千葉県館山市大神宮589
+  latitude: 34.9230778
+  longitude: 139.8373611
+  hp: http://www.awajinjya.sakura.ne.jp/
+  deities:
+    - amenofutodama
+  tags:
+    - 一宮
+

@@ -2,19 +2,23 @@ source 'https://rubygems.org'
 
 ruby '2.2.3'
 
-gem 'rails', '4.2.3'
+gem 'rails', github: "rails/rails"
+gem 'sprockets-rails', github: "rails/sprockets-rails"
+gem 'sprockets', github: "rails/sprockets"
+gem 'arel', github: "rails/arel"
+gem 'rack', github: "rack/rack"
 gem 'pg'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', github: "rails/sass-rails"
 gem 'slim-rails'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', github: "rails/coffee-rails"
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'moji'
 gem 'geocoder'
-gem 'ransack'
+gem 'ransack', github: 'activerecord-hackery/ransack'
 gem 'turbolinks', github: 'rails/turbolinks'
-gem 'order_as_specified'
+gem 'order_as_specified', github: 'panorama-ed/order_as_specified'
 gem 'puma'
 gem 'rake-guardian'
 # Use ActiveModel has_secure_password
@@ -27,7 +31,7 @@ group :development, :test do
   gem 'byebug'
   gem 'pry-byebug'
   gem 'pry-rails'
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', github: 'rails/web-console'
   gem 'spring'
   gem 'rails-footnotes', '~> 4.0'
 end
