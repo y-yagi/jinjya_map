@@ -10,7 +10,7 @@ class ShrinesController < ApplicationController
 
   def search
     setup_index
-    @shrines = @q.result(distinct: true)
+    @shrines = @q.result(distinct: true).preload(:deities)
     render :index, change: :shrines
   end
 
