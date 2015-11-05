@@ -1,8 +1,6 @@
 class ShrinesController < ApplicationController
   before_action :set_shrine, only: [:show, :edit, :update, :destroy]
 
-  # GET /shrines
-  # GET /shrines.json
   def index
     setup_index
     @shrines = Shrine.preload(:deities).latest
@@ -14,22 +12,16 @@ class ShrinesController < ApplicationController
     render :index, change: :shrines
   end
 
-  # GET /shrines/1
-  # GET /shrines/1.json
   def show
   end
 
-  # GET /shrines/new
   def new
     @shrine = Shrine.new
   end
 
-  # GET /shrines/1/edit
   def edit
   end
 
-  # POST /shrines
-  # POST /shrines.json
   def create
     @shrine = Shrine.new(shrine_params)
 
@@ -44,8 +36,6 @@ class ShrinesController < ApplicationController
     end
   end
 
-  # PATCH/PUT /shrines/1
-  # PATCH/PUT /shrines/1.json
   def update
     respond_to do |format|
       if @shrine.update(shrine_params)
@@ -58,8 +48,6 @@ class ShrinesController < ApplicationController
     end
   end
 
-  # DELETE /shrines/1
-  # DELETE /shrines/1.json
   def destroy
     @shrine.destroy
     respond_to do |format|
