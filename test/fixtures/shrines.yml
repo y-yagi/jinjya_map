@@ -423,3 +423,47 @@ masumida:
   hp: http://www.masumida.or.jp/
   deities:
     - amenohoakari
+
+aekuni:
+  name: 敢國神社
+  name_hiragana: あえくにじんじゃ
+  name_katakana: アエクニジンジャ
+  address: 三重県伊賀市一之宮877
+  latitude: 34.7873779
+  longitude: 136.1639382
+  hp: http://www.aekuni.jp/
+  deities:
+    - oohikonomikoto
+
+tsubaki:
+  name: 椿大神社
+  name_hiragana: つばきおおやしろ
+  name_katakana: ツバキオオヤシロ
+  address: 三重県鈴鹿市山本町字御旅1871
+  latitude: 34.9607206
+  longitude: 136.4574533
+  hp: http://www.tsubaki.or.jp/
+  deities:
+    - sarutahiko
+
+tsubaki_nakato:
+  name: 都波岐神社
+  name_hiragana: つばきじんじゃ
+  name_katakana: ツバキジンジャ
+  address: 三重県鈴鹿市一ノ宮町1181
+  latitude: 34.9012783
+  longitude: 136.6012245
+  deities:
+    - sarutahiko
+
+izawanomiya:
+  name: 伊雑宮
+  name_hiragana: いざわのみや
+  name_katakana: イザワノミヤ
+  address: 三重県志摩市磯部町上之郷374
+  latitude: 34.3801921
+  longitude: 136.8087807
+  hp: http://www.isejingu.or.jp/naiku_5.html
+  deities:
+    - amaterasu
+
