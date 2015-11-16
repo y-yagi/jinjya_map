@@ -390,3 +390,36 @@ suwa_akimiya:
     - yasakatomenokami
   tags:
     - 一宮
+
+toga_satomiya:
+  name: 砥鹿神社-里宮
+  name_hiragana: とがじんじゃ-さとみや
+  name_katakana: トガジンジャ-さとみや
+  address: 愛知県豊川市一宮町西垣内2
+  latitude: 34.8477503
+  longitude: 137.4208093
+  hp: http://www.togajinja.or.jp/
+  deities:
+    - oonamuchi
+
+toga_okumiya:
+  name: 砥鹿神社-奥宮
+  name_hiragana: とがじんじゃ-おくみや
+  name_katakana: トガジンジャ-おくみや
+  address: 愛知県豊川市上長山町本宮下4
+  latitude: 34.9057535
+  longitude: 137.4214992
+  hp: http://www.togajinja.or.jp/
+  deities:
+    - oonamuchi
+
+masumida:
+  name: 真清田神社
+  name_hiragana: ますみだじんじゃ
+  name_katakana: マスミダジンジャ
+  address: 愛知県一宮市真清田1-2-1
+  latitude: 35.3072257
+  longitude: 136.8016578
+  hp: http://www.masumida.or.jp/
+  deities:
+    - amenohoakari
