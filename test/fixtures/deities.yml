@@ -174,3 +174,13 @@ amaterasu:
   name: 天照大神
   name_hiragana: あまてらすおおみかみ
   name_katakana: アマテラスオオカミ
+
+kanayamahiko:
+  name: 金山彦神
+  name_hiragana: かなやまひこのかみ
+  name_katakana: カナヤマヒコノカミ
+
+mitoshi:
+  name: 御年大神
+  name_hiragana: みとしのおおかみ
+  name_katakana: ミトシノオオミカミ

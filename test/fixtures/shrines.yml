@@ -467,6 +467,28 @@ izawanomiya:
   deities:
     - amaterasu
 
+nanguu:
+  name: 南宮大社
+  name_hiragana: なんぐうたいしゃ
+  name_katakana: ナングウタイシャ
+  address: 岐阜県不破郡垂井町宮代峯1734-1
+  latitude: 35.3634126
+  longitude: 136.5267771
+  hp: http://www.nangu-san.com/
+  deities:
+    - kanayamahiko
+
+minashi:
+  name: 飛騨一宮水無神社
+  name_hiragana: ひだいちのみや みなしじんじゃ
+  name_katakana: ヒダイチノミヤ ミナシジンジャ
+  address: 岐阜県高山市一之宮町一の宮上5323
+  latitude: 36.0868626
+  longitude: 137.250266
+  hp: http://www.minashijinjya.or.jp/
+  deities:
+    - mitoshi
+
 takebe:
   name: 建部大社
   name_hiragana: たけべたいしゃ
