@@ -467,3 +467,14 @@ izawanomiya:
   deities:
     - amaterasu
 
+takebe:
+  name: 建部大社
+  name_hiragana: たけべたいしゃ
+  name_katakana: タケベタイシャ
+  address: 滋賀県大津市神領一丁目16-1
+  latitude: 34.973499
+  longitude: 135.9135046
+  hp: http://takebetaisha.jp/
+  deities:
+    - yamatotakeru
+    - oonamuchi
