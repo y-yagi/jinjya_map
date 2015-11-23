@@ -532,3 +532,25 @@ kehi:
   deities:
     - izasawake
 
+shirayama:
+  name: 白山比咩神社
+  name_hiragana: しらやまひめじんじゃ
+  name_katakana: シラヤマヒメジンジャ
+  address: 石川県白山市三宮町ニ105-1
+  latitude: 36.43487
+  longitude: 136.6360647
+  hp: http://www.shirayama.or.jp/
+  deities:
+    - shirayama
+    - kukuri
+
+ketataisha:
+  name: 氣多大社
+  name_hiragana: けたたいしゃ
+  name_katakana: ケタタイシャ
+  address: 石川県羽咋市寺家町ク1
+  latitude: 36.9253359
+  longitude: 136.7674627
+  hp: https://www.keta.jp/
+  deities:
+    - oonamuchi
