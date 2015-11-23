@@ -9,7 +9,7 @@ class DeityDashboard < Administrate::BaseDashboard
   # on pages throughout the dashboard.
   ATTRIBUTE_TYPES = {
     shrines: Field::HasMany,
-    id: Field::String,
+    id: Field::String.with_options(searchable: false),
     name: Field::String,
     name_hiragana: Field::String,
     name_katakana: Field::String,
@@ -46,4 +46,11 @@ class DeityDashboard < Administrate::BaseDashboard
     :detail,
     :tags,
   ]
+
+  # Overwrite this method to customize how deities are displayed
+  # across all pages of the admin dashboard.
+  #
+  # def display_resource(deity)
+  #   "Deity ##{deity.id}"
+  # end
 end

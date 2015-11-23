@@ -184,3 +184,18 @@ mitoshi:
   name: 御年大神
   name_hiragana: みとしのおおかみ
   name_katakana: ミトシノオオミカミ
+
+hoori:
+  name: 火遠理命
+  name_hiragana: ほおりのみこと
+  name_katakana: ホオリノミコト
+
+toyotamahime:
+  name: 豊玉姫神
+  name_hiragana: とよたまひめ
+  name_katakana: トヨタマヒメ
+
+izasawake:
+  name: 伊奢沙別命
+  name_hiragana: いざさわけのみこと
+  name_katakana: イザサワケノミコト
