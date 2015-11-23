@@ -500,3 +500,35 @@ takebe:
   deities:
     - yamatotakeru
     - oonamuchi
+
+wakasahiko:
+  name: 若狭彦神社
+  name_hiragana: わかさひこじんじゃ
+  name_katakana: ワカサヒコジンジャ
+  address: 福井県小浜市龍前28-7
+  latitude: 35.4661258792257
+  longitude: 135.7784677777778
+  deities:
+    - hoori
+
+wakasahime:
+  name: 若狭姫神社
+  name_hiragana: わかさひめじんじゃ
+  name_katakana: ワカサヒメジンジャ
+  address: 福井県小浜市遠敷65-41
+  latitude: 35.4789597
+  longitude: 135.7800916
+  deities:
+    - toyotamahime
+
+kehi:
+  name: 氣比神宮
+  name_hiragana: けひじんぐう
+  name_katakana: ケヒジングウ
+  address: 福井県敦賀市曙町11-68
+  latitude: 35.6549302
+  longitude: 136.0755659
+  hp: http://kehijingu.jp/
+  deities:
+    - izasawake
+
