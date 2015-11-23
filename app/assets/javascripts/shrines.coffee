@@ -15,8 +15,11 @@ setBrowsingHistory = (shrine_id) ->
   Cookies.set('shrine_history', shrine_ids)
 
 
-$(document).on('ready page:partial-load', (event) ->
-  map = new GoogleMap unless map
-  setCameraLink(map)
+$(document).on('ready', (event) ->
+  @map = new GoogleMap unless @map
+  setCameraLink(@map)
 )
 
+$(document).on('page:partial-load', (event) ->
+  setCameraLink(@map)
+)
