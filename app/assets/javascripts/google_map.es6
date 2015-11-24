@@ -1,6 +1,6 @@
-class @GoogleMap
-  constructor: ->
-    styles = [
+class GoogleMap {
+  constructor() {
+    this.styles = [
       {
         stylers: [
           { hue: "#4CAF50" },
@@ -21,20 +21,23 @@ class @GoogleMap
         ]
       }
     ]
-    styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"})
+    this.styledMap = new google.maps.StyledMapType(this.styles, {name: "Styled Map"})
 
-    mapOptions =
-      zoom: 15
+    this.mapOptions = {
+      zoom: 15,
       center: { lat: 35.681382, lng: 139.766084 },
       mapTypeControlOptions: {
         mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
       }
+    }
 
-    @map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions)
-    @map.mapTypes.set('map_style', styledMap)
-    @map.setMapTypeId('map_style')
+    this.map = new google.maps.Map(document.getElementById('map-canvas'), this.mapOptions)
+    this.map.mapTypes.set('map_style', this.styledMap)
+    this.map.setMapTypeId('map_style')
+  }
 
-  setCenter: (lat, lng) ->
-    @map.setCenter({lat: lat, lng: lng})
-    new google.maps.Marker({position: {lat: lat, lng: lng}, map: @map})
-
+  setCenter(lat, lng) {
+    this.map.setCenter({lat: lat, lng: lng})
+    new google.maps.Marker({position: {lat: lat, lng: lng}, map: this.map})
+  }
+}
