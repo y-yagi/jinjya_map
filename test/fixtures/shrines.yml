@@ -554,3 +554,47 @@ ketataisha:
   hp: https://www.keta.jp/
   deities:
     - oonamuchi
+
+ketajinjya:
+  name: 気多神社
+  name_hiragana: けたじんじゃ
+  name_katakana: ケタジンジャ
+  address: 富山県高岡市伏木一宮1-10-1
+  latitude: 36.7988639
+  longitude: 137.0457494
+  deities:
+    - oonamuchi
+    - nunakawahime
+
+takase:
+  name: 高瀬神社
+  name_hiragana: たかせじんじゃ
+  name_katakana: タカセジンジャ
+  address: 富山県南砺市高瀬291
+  latitude: 36.5718849
+  longitude: 136.9482561
+  hp: http://www.takase.or.jp/
+  deities:
+    - oonamuchi
+
+isui:
+  name: 射水神社
+  name_hiragana: いみずじんじゃ
+  name_katakana: イズミジンジャ
+  address: 富山県高岡市古城1-1
+  latitude: 36.7489304
+  longitude: 137.0211178
+  hp: http://www.imizujinjya.or.jp/
+  deities:
+    - ninigi
+
+oyama_mine:
+  name: 雄山神社 峰本社
+  name_hiragana: おやまじんじゃ みねほんしゃ
+  address: 富山県中新川郡立山町立山峰1番地
+  latitude: 36.342344
+  longitude: 137.37451
+  hp: http://www.oyamajinja.org/
+  deities:
+    - izanagi
+    - amenotajikara
