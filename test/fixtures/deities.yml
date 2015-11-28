@@ -34,7 +34,7 @@ isaserihiko:
   name_katakana: イサセリヒコノミコト
 
 amanokaguyama:
-  name: 天隠山命
+  name: 天香山命
   name_hiragana: あめのかぐやまのみこと
   name_katakana: アメノカグヤマノミコト
 
@@ -230,3 +230,7 @@ amenotajikara:
   name_hiragana: あめのたぢからおのかみ
   name_katakana: アメノタヂカラオノカミ
 
+isotakeru:
+  name: 五十猛神
+  name_hiragana: いそたける
+  name_katakana: イソタケル

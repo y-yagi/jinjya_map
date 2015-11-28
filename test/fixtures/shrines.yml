@@ -598,3 +598,37 @@ oyama_mine:
   deities:
     - izanagi
     - amenotajikara
+
+iyahiko:
+  name: 彌彦神社
+  name_hiragana: いやひこじんじゃ
+  name_katakana: イヤヒコジンジャ
+  address: 新潟県西蒲原郡弥彦村弥彦2898
+  latitude: 37.7060657
+  longitude: 138.8266224
+  hp: http://www.yahiko-omori.com/
+  deities:
+    - amanokaguyama
+
+watatsu:
+  name: 度津神社
+  name_hiragana: わたつじんじゃ
+  name_katakana: ワタツジンジャ
+  address: 新潟県佐渡市飯岡550-4
+  latitude: 37.8602277
+  longitude: 138.3306237
+  deities:
+    - isotakeru
+
+kota:
+  name: 居多神社
+  name_hiragana: こたじんじゃ
+  name_katakana: コタジンジャ
+  address: 新潟県上越市五智6-1-11
+  latitude: 37.1664617
+  longitude: 138.2231805
+  deities:
+    - oonamuchi
+    - nunakawahime
+    - takeminakata
+    - kotoshironushi
