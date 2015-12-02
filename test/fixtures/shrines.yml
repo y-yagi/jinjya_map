@@ -632,3 +632,26 @@ kota:
     - nunakawahime
     - takeminakata
     - kotoshironushi
+
+izumodaijingu:
+  name: 出雲大神宮
+  name_hiragana: いずもだいじんぐう
+  name_katakana: イズモダイジングウ
+  address: 京都府亀岡市千歳町千歳出雲無番地
+  latitude: 35.0624296
+  longitude: 135.575673
+  hp: http://www.izumo-d.org/
+  deities:
+    - ookuni
+    - mihotsu
+
+kono:
+  name: 籠神社
+  name_hiragana: このじんじゃ
+  name_katakana: コノジンジャ
+  address: 京都府宮津市字大垣430
+  latitude: 35.5828156
+  longitude: 135.1966741
+  hp: http://www.motoise.jp/
+  deities:
+    - amenohoakari
