@@ -249,3 +249,38 @@ oomononushi:
   name: 大物主
   name_hiragana: おおものぬし
   name_katakana: オオモノヌシ
+
+amenokoyane:
+  name: 天児屋命
+  name_hiragana: あめのこやねのみこと
+  name_katakana: アメノコヤネノミコト
+
+himemikami:
+  name: 比売御神
+  name_hiragana: ひめみかみ
+  name_katakana: ヒメミカミ
+
+ootori:
+  name: 大鳥連祖神
+  name_hiragana: おおとりのむらじのおやがみ
+  name_katakana: オオトリノムラシノオヤガミ
+
+sokotsutsu:
+  name: 底筒男命
+  name_hiragana: そこつつのおのみこと
+  name_katakana: ソコツツノオノミコト
+
+nakatsutsu:
+  name: 中筒男命
+  name_hiragana: なかつつのおのみこと
+  name_katakana: ナカツツノオノミコト
+
+uwatsutsu:
+  name: 表筒男命
+  name_hiragana: うわつつのおのみこと
+  name_katakana: ウワツツノオノミコト
+
+jinguukougou:
+  name: 神功皇后
+  name_hiragana: じんぐうこうごう
+  name_katakana: ジングウコウゴウ

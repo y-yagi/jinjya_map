@@ -666,3 +666,43 @@ oomiwa:
   hp: http://oomiwa.or.jp/
   deities:
     - oomononushi
+
+hiraoka:
+  name: 枚岡神社
+  name_hiragana: ひらおかじんじゃ
+  name_katakana: ヒラオカジンジャ
+  address: 大阪府東大阪市出雲井町7番16号
+  latitude: 34.669946
+  longitude: 135.6507191
+  hp: http://www.hiraoka-jinja.org/index.html
+  deities:
+    - amenokoyane
+    - himemikami
+    - takemikaduchi
+    - futsunushi
+
+ootori:
+  name: 大鳥大社
+  name_hiragana: おおとりたいしゃ
+  name_katakana: オオトリタイシャ
+  address: 大阪府堺市西区鳳北町1-1-2
+  latitude: 34.5360518
+  longitude: 135.4601615
+  deities:
+    - yamatotakeru
+    - ootori
+
+sumiyoshitaisha:
+  name: 住吉大社
+  name_hiragana: すみよしたいしゃ
+  name_katakana: スミヨシタイシャ
+  address: 	大阪府大阪市住吉区住吉2-9-89
+  latitude: 34.6127972
+  longitude: 135.4929405
+  hp: http://www.sumiyoshitaisha.net/
+  deities:
+    - sokotsutsu
+    - nakatsutsu
+    - uwatsutsu
+    - jinguukougou
+
