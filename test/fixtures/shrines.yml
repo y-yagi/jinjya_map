@@ -655,3 +655,14 @@ kono:
   hp: http://www.motoise.jp/
   deities:
     - amenohoakari
+
+oomiwa:
+  name: 大神神社
+  name_hiragana: おおみわじんじゃ
+  name_katakana: オオミワジンジャ
+  address: 奈良県桜井市三輪1422
+  latitude: 34.5287714
+  longitude: 135.8530094
+  hp: http://oomiwa.or.jp/
+  deities:
+    - oomononushi
