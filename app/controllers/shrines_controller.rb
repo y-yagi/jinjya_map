@@ -58,7 +58,7 @@ class ShrinesController < ApplicationController
 
   private
     def setup_index
-      @q = Shrine.ransack(params[:q])
+      @q = Shrine.preload(:deities).ransack(params[:q])
       set_history
     end
 
