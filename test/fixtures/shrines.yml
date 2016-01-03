@@ -706,3 +706,35 @@ sumiyoshitaisha:
     - uwatsutsu
     - jinguukougou
 
+izushi:
+  name: 出石神社
+  name_hiragana: いずしじんじゃ
+  name_katakana: イズシジンジャ
+  address: 兵庫県豊岡市出石町宮内99
+  latitude: 35.4819746
+  longitude: 134.8702865
+  deities:
+    - idushiyamae
+    - amenohiboko
+
+awaga:
+  name: 粟鹿神社
+  name_hiragana: あわがじんじゃ
+  name_katakana: アワガジンジジャ
+  address: 兵庫県朝来市山東町粟鹿2152
+  latitude: 35.308811
+  longitude: 134.9251399
+  deities:
+    - hoori
+    - hikoimasu
+    - amekirinomikoto
+
+iwa:
+  name: 伊和神社
+  name_hiragana: いわじんじゃ
+  name_katakana: イワジンジャ
+  address: 兵庫県宍粟市一宮町須行名407
+  latitude: 35.0875599
+  longitude: 134.5864722
+  deities:
+    - oonamuchi
