@@ -738,3 +738,37 @@ iwa:
   longitude: 134.5864722
   deities:
     - oonamuchi
+
+nakayama:
+  name: 中山神社
+  name_hiragana: なかやまじんじゃ
+  name_katakana: ナカヤマジンジャ
+  address: 岡山県津山市一宮695
+  latitude: 35.1002921
+  longitude: 133.9944982
+  deities:
+    - kagamitukuri
+    - amenonukado
+    - ishikoridome
+
+kibitsu:
+  name: 吉備津神社
+  name_hiragana: きびつじんじゃ
+  name_katakana: キビツジンジャ
+  address: 岡山県岡山市北区吉備津931
+  latitude: 34.670714
+  longitude: 133.8506538
+  hp: http://kibitujinja.com/
+  deities:
+    - kibitsuhiko
+
+kibitsuhiko:
+  name: 吉備津彦神社
+  name_hiragana: きびつひこじんじゃ
+  name_katakana: キビツヒコジンジャ
+  address: 岡山県岡山市北区一宮1043
+  latitude: 34.6768385
+  longitude: 133.8642188
+  hp: http://www.kibitsuhiko.or.jp/
+  deities:
+    - kibitsuhiko
