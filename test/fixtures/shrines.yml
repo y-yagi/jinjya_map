@@ -772,3 +772,26 @@ kibitsuhiko:
   hp: http://www.kibitsuhiko.or.jp/
   deities:
     - kibitsuhiko
+
+kibitsu_fukuyama:
+  name: 吉備津神社
+  name_hiragana: きびつじんじゃ
+  name_katakana: キビツジンジャ
+  address: 広島県福山市新市町宮内400
+  latitude: 34.5688421
+  longitude: 133.2709264
+  hp: http://www.d2.dion.ne.jp/~oichan/
+  deities:
+    - kibitsuhiko
+
+itsukushima:
+  name: 厳島神社
+  name_hiragana: いつくしまじんじゃ
+  name_katakana: イツクシマジンジャ
+  address: 広島県廿日市市宮島町1-1
+  latitude: 34.2972803
+  longitude: 132.3202573
+  deities:
+    - ichikishimahime
+    - takiribime
+    - tagitsuhime
