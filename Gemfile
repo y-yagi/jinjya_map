@@ -41,12 +41,6 @@ group :test do
   gem 'webmock'
 end
 
-source 'https://rails-assets.org' do
-  gem 'rails-assets-material-design-lite'
-  gem 'rails-assets-js-cookie'
-  gem 'rails-assets-lodash'
-end
-
 group :production do
   gem 'unicorn'
   gem 'rails_12factor'

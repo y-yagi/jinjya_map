@@ -7,7 +7,6 @@ GIT
 
 GEM
   remote: https://rubygems.org/
-  remote: https://rails-assets.org/
   specs:
     actionmailer (4.2.5)
       actionpack (= 4.2.5)
@@ -163,9 +162,6 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.2.5)
       sprockets-rails
-    rails-assets-js-cookie (2.0.3)
-    rails-assets-lodash (3.10.1)
-    rails-assets-material-design-lite (1.0.2)
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
     rails-dom-testing (1.0.7)
@@ -269,9 +265,6 @@ DEPENDENCIES
   pry-rails
   puma
   rails (= 4.2.5)
-  rails-assets-js-cookie!
-  rails-assets-lodash!
-  rails-assets-material-design-lite!
   rails-footnotes (~> 4.0)
   rails_12factor
   rake-guardian
