@@ -13,3 +13,4 @@
 /tmp
 .env
 .byebug_history
+node_modules/
