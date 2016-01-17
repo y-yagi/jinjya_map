@@ -16,3 +16,4 @@ before_script:
   - cp config/database.yml.travis config/database.yml
   - psql -c 'create database database_test' -U postgres
   - bundle update
+  - npm install
