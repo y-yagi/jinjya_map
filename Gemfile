@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 
 gem 'administrate'
+gem 'browserify-rails'
 gem 'dotenv-rails'
 gem 'rails', '4.2.5'
 gem 'pg'
