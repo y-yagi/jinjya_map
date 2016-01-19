@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 
 gem 'administrate'
+gem 'browserify-rails'
 gem 'dotenv-rails'
 gem 'rails', '4.2.5'
 gem 'pg'
@@ -38,12 +39,6 @@ end
 group :test do
   gem 'vcr'
   gem 'webmock'
-end
-
-source 'https://rails-assets.org' do
-  gem 'rails-assets-material-design-lite'
-  gem 'rails-assets-js-cookie'
-  gem 'rails-assets-lodash'
 end
 
 group :production do

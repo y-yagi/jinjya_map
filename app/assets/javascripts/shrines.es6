@@ -1,4 +1,5 @@
 (() => {
+  var Cookies = require('js-cookie');
   let map;
   const setCameraLink = (map) => {
     $('.move-camera').click(event => {

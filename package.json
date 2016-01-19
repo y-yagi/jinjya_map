@@ -1,0 +1,14 @@
+{
+  "name": "jinjya_map",
+  "dependencies" : {
+    "browserify": "~> 10.2.4",
+    "browserify-incremental": "^3.0.1",
+    "material-design-lite": "*",
+    "js-cookie": "*",
+    "lodash": "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  }
+}

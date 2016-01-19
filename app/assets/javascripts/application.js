@@ -12,9 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require material-design-lite
 //= require turbolinks
-//= require lodash
-//= require js-cookie
 //= require google_map
 //= require_tree .
+var _ = require('lodash');
+var _ = require('material-design-lite/material.min.js');
