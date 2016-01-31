@@ -795,3 +795,26 @@ itsukushima:
     - ichikishimahime
     - takiribime
     - tagitsuhime
+
+tamanoya:
+  name: 玉祖神社
+  name_hiragana: たまのおやじんじゃ
+  name_katakana: タマノオヤジンジャ
+  address: 山口県防府市大字大崎1690
+  latitude: 34.0577227
+  longitude: 131.5336451
+  deities:
+    - tamanoya
+
+sumiyoshi_yamaguch:
+  name: 住吉神社
+  name_hiragana: すみよしじんじゃ
+  name_katakana: スミヨシジンジャ
+  address: 山口県下関市一の宮住吉一丁目11-1
+  latitude: 33.9994129
+  longitude: 130.9563984
+  deities:
+    - sokotsutsu
+    - nakatsutsu
+    - uwatsutsu
+    - jinguukougou
